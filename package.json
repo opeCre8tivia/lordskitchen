@@ -1,0 +1,21 @@
+{
+  "name": "lordskitchen",
+  "version": "1.0.0",
+  "description": "roasted pork",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "client": "cd frontend && npm run start",
+    "server": "nodemon index --ignore client/",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "author": "opel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.0"
+  }
+}
