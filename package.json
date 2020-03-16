@@ -12,10 +12,12 @@
   "author": "opel",
   "license": "ISC",
   "dependencies": {
+    "acorn": "^7.1.1",
     "bcrypt": "^3.0.8",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
+    "minimist": "^1.2.2",
     "mongoose": "^5.8.0"
   }
 }
